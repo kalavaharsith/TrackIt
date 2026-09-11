@@ -7,7 +7,7 @@ This project is built to demonstrate core computer science fundamentals in C, br
 * **Data Structures (`struct`):** A custom `struct app` is used to bundle disparate data types—a `char` array for the app name and an `int` for the time spent—keeping the data tightly coupled in memory.
 * **String Parsing & Sanitization:** Using `<string.h>` functions like `strcspn` to strip hidden newline characters from user input, ensuring clean file formatting. 
 * **Buffer Management:** Utilizing `strcat` to dynamically build large strings in memory while categorizing file data, which requires careful sizing of character arrays to prevent buffer overflows or segmentation faults.
-
+* 
 ### How the Code Works
 1. **Initialization & Control Flow:** The program's lifecycle is controlled by a `do-while` loop and a `switch` statement. This keeps the command-line interface active, re-rendering the menu after every action until the user explicitly selects the exit option (`3`).
 2. **Storing Data (Option 1):** 
