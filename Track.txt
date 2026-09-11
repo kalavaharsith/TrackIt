@@ -1,0 +1,3 @@
+App			Time
+Instagram		3
+Whatsapp		5
